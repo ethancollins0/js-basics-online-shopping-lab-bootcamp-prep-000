@@ -19,9 +19,7 @@ function viewCart() {
   var cartCopy = cart
   var cartList = "In your cart, you have "
   if (cartCopy.length > 0) {
-    do {
-      if
-    } while ();
+    cart.itemName
   }
 }
 
