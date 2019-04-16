@@ -42,6 +42,7 @@ function total() {
     return 0
   } else {
     var total = 0
+    while (cart.length > 0)
   }
 }
 
