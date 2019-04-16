@@ -29,8 +29,9 @@ function viewCart() {
           cartList += `, and ${cart[0].itemName} at $${cart[0].itemPrice}`
           cartCopy.shift()
       }
-      cartList += "."
+
     }
+    cartList += "."
   } else {
     return "Your shopping cart is empty."
   }
