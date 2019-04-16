@@ -16,7 +16,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  for (let i = cart.length, i > 0, i--)
+  if (cart.length > 0) {
+    
+  }
 }
 
 function total() {
