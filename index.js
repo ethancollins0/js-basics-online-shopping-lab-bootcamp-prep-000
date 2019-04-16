@@ -42,7 +42,7 @@ function total() {
   } else {
     var total = 0
     var i = cart.length
-    while (cart.length > 0) {
+    while (i > 0) {
       total += cart[0]
     }
   }
