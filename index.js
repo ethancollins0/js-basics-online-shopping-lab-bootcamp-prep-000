@@ -46,6 +46,7 @@ function total() {
       total += cart[i]
       i++
     }
+    return total
   }
 }
 
