@@ -23,7 +23,7 @@ function viewCart() {
     cartCopy.shift()
     while (cartCopy.length > 0) {
       if (cartCopy.length > 1) {
-        cartList += 
+        cartList +=
       } else {
           +=
       }
