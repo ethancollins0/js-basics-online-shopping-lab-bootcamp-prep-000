@@ -25,7 +25,7 @@ function viewCart() {
     do {
       str += `${cart[i].itemName} at $${cart[i].itemPrice}, `
       i++;
-    } while (cart.length > i - 1)
+    } while (cart.length > i)
     str += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
     cart = cartSave.slice()
     return str
