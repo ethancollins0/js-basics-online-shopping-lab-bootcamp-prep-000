@@ -24,6 +24,7 @@ function viewCart() {
     while (cartCopy.length > 0) {
       if (cartCopy.length > 1) {
         cartList += `, ${cart[0].itemName} at $${cart[0].itemPrice}`
+        cartCopy.shift()
       } else {
           cartList += `, and ${cart[0].itemName} at $${cart[0].itemPrice}`
       }
