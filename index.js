@@ -39,7 +39,7 @@ function total() {
     var total = 0
     var i = 0
     while (i < cart.length) {
-      total += parseInt(cart[i].itemPrice)
+      total += cart[i].itemPrice
       i++
     }
     return total
