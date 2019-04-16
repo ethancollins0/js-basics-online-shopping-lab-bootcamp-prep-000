@@ -16,7 +16,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
-
+  if (cart.length < 1) {
+    return "Your shopping cart is empty."
+  }
 }
 /*
 var cartCopy = cart.slice();
