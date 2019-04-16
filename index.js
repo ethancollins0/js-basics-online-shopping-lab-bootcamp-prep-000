@@ -21,6 +21,7 @@ function viewCart() {
   } else {
     var str = "In your cart, you have "
     if (cart.length > 1) {
+      var i = 0
     do {
       str += `${cart[0].itemName} at $${cart[0].itemPrice}, `
       cart.shift()
