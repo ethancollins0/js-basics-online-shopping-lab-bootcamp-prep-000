@@ -16,7 +16,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  
+
 }
 /*
 var cartCopy = cart.slice();
