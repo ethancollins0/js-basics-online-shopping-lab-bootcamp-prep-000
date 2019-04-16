@@ -16,7 +16,6 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var cartSave = cart.slice()
   if (cart.length < 1) {
     return "Your shopping cart is empty."
   } else {
@@ -31,7 +30,6 @@ function viewCart() {
     return str
   } else {
     str += `${cart[0].itemName} at $${cart[0].itemPrice}.`
-    cart = cartSave.slice()
     return str
   }
       }
@@ -42,7 +40,9 @@ function total() {
     return 0
   } else {
     var total = 0
-    while (cart.length > 0)
+    while (cart.length > 0) {
+      total += cart[0]
+    }
   }
 }
 
