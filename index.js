@@ -52,8 +52,8 @@ function total() {
 function removeFromCart(item) {
   var cartCopy = cart.slice()
   for(let i = 0; i < cart.length; i++) {
-    if (cart[i].itemName === `${item}`) {
-      cart.slice()
+    if (cart[i].itemName === item) {
+      cart.s
       return cart
     }
   }
