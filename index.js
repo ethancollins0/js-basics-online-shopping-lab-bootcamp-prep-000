@@ -16,7 +16,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var cartList = ""
+  var cartList = "In your cart, you have "
   if (cart.length > 0) {
     do {
 
