@@ -44,7 +44,6 @@ function total() {
     }
     return total
   }
-}
 
 function removeFromCart(item) {
   var cartCopy = cart.slice()
