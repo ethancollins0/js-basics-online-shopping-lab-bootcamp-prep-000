@@ -31,6 +31,8 @@ function viewCart() {
       }
       cartList += "."
     }
+  } else {
+    return "Your shopping cart is empty."
   }
 }
 
