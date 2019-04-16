@@ -16,7 +16,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  cartSave = cart.slice()
+  var cartSave = cart.slice()
   if (cart.length < 1) {
     return "Your shopping cart is empty."
   } else {
