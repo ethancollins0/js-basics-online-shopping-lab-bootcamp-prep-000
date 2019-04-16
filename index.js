@@ -23,10 +23,10 @@ function viewCart() {
     var str = "In your cart, you have "
     if (cart.length > 1) {
     do {
-      str += `${cart[0].itemName} at ${cart[0].itemPrice}, `
+      str += `${cart[0].itemName} at $${cart[0].itemPrice}, `
       cart.shift()
     } while (cart.length > 1)
-    str += `and ${cart[0].itemName} at ${cart[0].itemPrice}.`
+    str += `and ${cart[0].itemName} at $${cart[0].itemPrice}.`
     cart = cartSave.slice()
     return str
         }
