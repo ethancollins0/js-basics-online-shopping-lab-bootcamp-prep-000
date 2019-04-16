@@ -19,11 +19,11 @@ function viewCart() {
   var cartCopy = cart
   var cartList = "In your cart, you have "
   if (cartCopy.length > 0) {
-    cartList += `${cart[0].itemName} at ${cart[0].itemPrice}`]
+    cartList += `${cart[0].itemName} at ${cart[0].itemPrice}, `]
     cartCopy.shift()
     while (cartCopy.length > 0) {
       if (cartCopy.length > 1) {
-        cartList +=
+        cartList += `${cart[0].itemName} at ${cart[0].itemPrice}`]
       } else {
           +=
       }
