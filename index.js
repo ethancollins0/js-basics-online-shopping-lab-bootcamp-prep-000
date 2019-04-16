@@ -43,7 +43,7 @@ function total() {
     var total = 0
     var i = cart.length
     while (i > 0) {
-      total += cart[0]
+      total += cart[i]
     }
   }
 }
