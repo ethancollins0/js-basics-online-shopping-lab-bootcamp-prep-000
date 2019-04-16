@@ -25,7 +25,7 @@ function viewCart() {
       if (cartCopy.length > 1) {
         cartList += `, ${cart[0].itemName} at ${cart[0].itemPrice}`]
       } else {
-          cartList +=
+          cartList += `, and ${cart[0].itemName} at ${cart[0].itemPrice}`]
       }
     }
   }
