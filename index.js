@@ -16,8 +16,11 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  var cartList = ""
   if (cart.length > 0) {
+    do {
 
+    } while ();
   }
 }
 
