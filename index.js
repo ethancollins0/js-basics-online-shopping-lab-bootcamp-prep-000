@@ -20,9 +20,9 @@ function viewCart() {
     return "Your shopping cart is empty."
   } else {
     var str = "In your cart, you have "
-    while (cart.length > 0) {
-      if (cart.length > 1) {
+    do {
 
+    } while (cart.length > 1)
       }
     }
   }
