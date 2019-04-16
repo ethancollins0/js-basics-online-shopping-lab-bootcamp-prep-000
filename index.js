@@ -41,7 +41,7 @@ function total() {
   if (cart.length < 1) {
     return 0
   } else {
-    var total =
+    var total = 0
   }
 }
 
