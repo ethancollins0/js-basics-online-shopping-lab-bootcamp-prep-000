@@ -10,8 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var list = {itemName: `${item},` itemPrice: (Math.floor(Math.random()*100)+1)}
-  return `${item} has been added to your cart.`
+  var item = {itemName: item, itemPrice: Math.Random(Math.Floor()*100)+1}
 }
 
 function viewCart() {
