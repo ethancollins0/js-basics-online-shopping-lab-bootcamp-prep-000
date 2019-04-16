@@ -16,10 +16,11 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  var cartCopy = cart
   var cartList = "In your cart, you have "
   if (cart.length > 0) {
     do {
-
+      if 
     } while ();
   }
 }
