@@ -36,31 +36,13 @@ function viewCart() {
   }
       }
     }
-/*
-var cartCopy = cart.slice();
-if (cartCopy.length > 0) {
-    var cartList = "In your cart, you have "
-  cartList += `${cart[0].itemName} at $${cart[0].itemPrice}`
-  cartCopy.shift()
-  while (cartCopy.length > 0) {
-    if (cartCopy.length > 1) {
-      cartList += `, ${cart[0].itemName} at $${cart[0].itemPrice}`
-      cartCopy.shift()
-    } else {
-        cartList += `, and ${cart[0].itemName} at $${cart[0].itemPrice}`
-        cartCopy.shift()
-    }
 
-  }
-  cartList += "."
-  return cartList
-} else {
-  return "Your shopping cart is empty."
-}
-}
-*/
 function total() {
-  // write your code here
+  if (cart.length < 1) {
+    return "$0"
+  } else {
+    var total =
+  }
 }
 
 function removeFromCart(item) {
