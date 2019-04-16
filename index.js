@@ -15,7 +15,8 @@ function addToCart(item) {
   return `${item} has been added to your cart.`
 }
 
-function viewCart() {
+function viewCart() {s
+  cartSave = cart.slice()
   if (cart.length < 1) {
     return "Your shopping cart is empty."
   } else {
