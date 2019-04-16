@@ -22,13 +22,11 @@ function viewCart() {
     var str = "In your cart, you have "
     if cart.length > 1 {
     do {
-      str += `${cart[0].itemName} at ${cart[0].itemPrice}`
+      str += `${cart[0].itemName} at ${cart[0].itemPrice}, `
     } while (cart.length > 1)
         }
       }
     }
-  }
-}
 /*
 var cartCopy = cart.slice();
 if (cartCopy.length > 0) {
