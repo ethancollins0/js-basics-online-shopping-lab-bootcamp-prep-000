@@ -20,7 +20,7 @@ function viewCart() {
   var cartList = "In your cart, you have "
   if (cart.length > 0) {
     do {
-      if 
+      if
     } while ();
   }
 }
