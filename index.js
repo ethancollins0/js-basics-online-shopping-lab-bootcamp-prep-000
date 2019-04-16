@@ -62,7 +62,6 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
-  var number = parseInt(cardNumber)
   if (cardNumber === 'undefined') {
     return "Sorry, we don't have a credit card on file for you."
   } else {
