@@ -50,7 +50,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  for(i = 0; i < cart.length; ++)
 }
 
 function placeOrder(cardNumber) {
