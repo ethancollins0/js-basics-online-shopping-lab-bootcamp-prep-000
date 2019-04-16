@@ -16,10 +16,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var str = "In your cart, you have "
   if (cart.length < 1) {
     return "Your shopping cart is empty."
   } else {
+      var str = "In your cart, you have "
     while (cart.length > 0) {
       if (cart.length > 1) {
 
