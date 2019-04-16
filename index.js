@@ -19,7 +19,7 @@ function viewCart() {
   var cartCopy = cart
   var cartList = "In your cart, you have "
   if (cartCopy.length > 0) {
-    cart.itemName
+    cartList += `${cart[0].itemName} at ${cart[0].itemPrice}`]
   }
 }
 
