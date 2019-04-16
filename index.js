@@ -21,7 +21,7 @@ function viewCart() {
   } else {
     var str = "In your cart, you have "
     do {
-
+      str += `${cart[0].itemName} at ${cart[0].itemPrice}`
     } while (cart.length > 1)
       }
     }
