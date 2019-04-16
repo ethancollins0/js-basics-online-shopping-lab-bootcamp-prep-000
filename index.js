@@ -39,7 +39,7 @@ function viewCart() {
 
 function total() {
   if (cart.length < 1) {
-    return "$0"
+    return 0
   } else {
     var total =
   }
