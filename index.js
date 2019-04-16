@@ -31,6 +31,7 @@ function viewCart() {
     return str
   } else {
     str += `${cart[0].itemName} at $${cart[0].itemPrice}.`
+    cart = cartSave.slice()
     return str
   }
       }
