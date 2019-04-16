@@ -27,6 +27,7 @@ function viewCart() {
       } else {
           cartList += `, and ${cart[0].itemName} at ${cart[0].itemPrice}`]
       }
+      cartList += "."
     }
   }
 }
