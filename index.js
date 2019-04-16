@@ -16,7 +16,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  for (let i = cart.length, i > 0, i--)
 }
 
 function total() {
