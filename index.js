@@ -63,7 +63,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   var number = parseInt(cardNumber)
-  if (number.length < 8) {
+  if (cardNumner === "") {
     return "Sorry, we don't have a credit card on file for you."
   } else {
     cart = []
