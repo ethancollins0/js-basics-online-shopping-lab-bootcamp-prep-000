@@ -17,8 +17,8 @@ function addToCart(item) {
 
 function viewCart() {
   var cartCopy = cart
-  var cartList = "In your cart, you have "
   if (cartCopy.length > 0) {
+      var cartList = "In your cart, you have "
     cartList += `${cart[0].itemName} at $${cart[0].itemPrice}`
     cartCopy.shift()
     while (cartCopy.length > 0) {
